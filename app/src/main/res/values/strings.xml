@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notitas</string>
+    <string name="label1_start">NOTITAS</string>
+    <string name="caja1_verNotas">Información de la nota:</string>
+    <string name="boton_volver_ver">VOLVER</string>
+    <string name="boton_borrar_ver">BORRAR</string>
+    <string name="caja1_crear">Escribe una nota:</string>
+    <string name="boton_volver_crear">VOLVER</string>
+    <string name="boton_crear_crear">CREAR</string>
+    <string name="toast_rojo">Nota obligatoria</string>
+    <string name="toast_correcto">Nota creada correctamente</string>
+    <string name="boton1_borrarTodasNotas">BORRAR TODAS LAS NOTAS</string>
+    <string name="boton2_volver_borrar">VOLVER</string>
+    <string name="toast_borradoTotal">Se han borrado todas las notas correctamente</string>
+    <string name="toast_boton_borrar_ver">Nota borrada correctamente</string>
+</resources>

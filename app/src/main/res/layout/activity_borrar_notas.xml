@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".BorrarNotasActivity">
+
+    <Button
+        android:id="@+id/boton1_borrarNotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="92dp"
+        android:background="@color/black"
+        android:text="@string/boton1_borrarTodasNotas"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/boton2_borrarNotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton2_borrarNotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="386dp"
+        android:background="@color/black"
+        android:text="@string/boton2_volver_borrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton1_borrarNotas" />
+</androidx.constraintlayout.widget.ConstraintLayout>
